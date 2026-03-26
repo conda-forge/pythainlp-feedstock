@@ -1,5 +1,5 @@
 {% set name = "pythainlp" %}
-{% set version = "5.2.0" %}
+{% set version = "5.3.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pythainlp-{{ version }}.tar.gz
-  sha256: 04c6e4bdd806204be742f139b1f2e666411c4509c270dfff1a8b5afa69d36d2b
+  sha256: c7e5d43238ac882479dd3f303e76838255ba7358da77553ed2a1296395ffe7b5
 
 build:
   number: 0
